@@ -138,3 +138,25 @@ button:hover {
   background-color: #4ac9b7;
 }
 
+.business-ad-form {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.business-ad-form h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.business-subtitle {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+

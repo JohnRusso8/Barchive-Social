@@ -86,3 +86,55 @@ footer a:hover {
   max-width: 200px;
   height: auto;
 }
+form {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #50e3c2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4ac9b7;
+}
+
